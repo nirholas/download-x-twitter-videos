@@ -367,7 +367,14 @@
           body: JSON.stringify({ url }),
         });
 
-        const data = await res.json();
+        let data;
+        try {
+          data = await res.json();
+        } catch {
+          throw new Error(res.status === 404
+            ? 'Video API is temporarily unavailable. Please try again later.'
+            : 'Failed to extract video. Server returned an unexpected response.');
+        }
 
         if (!res.ok) {
           throw new Error(data.error || 'Failed to extract video');
