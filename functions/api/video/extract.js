@@ -79,3 +79,7 @@ export async function onRequestPost({ request, env }) {
     return jsonResponse({ error: 'Failed to extract video. Please try again.' }, 500, cors);
   }
 }
+
+// A discovery crawler probes with HEAD first; Pages would otherwise route that
+// to functions/api/[[path]].js and answer 503 for an endpoint that is live.
+export const onRequestHead = onRequestGet;
