@@ -1,0 +1,12 @@
+# Cloudflare Pages project for the X/Twitter video downloader.
+#
+#   npm run dev      local server on http://localhost:8788 (page + functions)
+#   npm run deploy   publish public/ and functions/ to Cloudflare Pages
+#
+# Optional secret: TWITTER_BEARER_TOKEN enables the guest-token GraphQL lane
+# (wrangler pages secret put TWITTER_BEARER_TOKEN). Without it the extractor
+# uses the syndication and fxtwitter lanes, which need no credentials.
+
+name = "xactions-video"
+pages_build_output_dir = "public"
+compatibility_date = "2025-10-01"

@@ -1,0 +1,23 @@
+{
+  "name": "xactions-video",
+  "version": "1.0.0",
+  "description": "Free X/Twitter video downloader that runs entirely at the edge on Cloudflare Pages. Powers https://xactions.app/video.",
+  "type": "module",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "nich (@nichxbt)",
+  "homepage": "https://xactions.app/video",
+  "scripts": {
+    "dev": "wrangler pages dev",
+    "deploy": "wrangler pages deploy",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.0",
+    "wrangler": "^4.40.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

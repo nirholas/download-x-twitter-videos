@@ -20,7 +20,7 @@ import {
   parseTweetUrl,
   syndicationToken,
   VideoExtractionError,
-} from '../../src/video/edgeExtractor.js';
+} from '../src/edgeExtractor.js';
 
 const TWEET_ID = '2092648130856571283';
 const MEDIA_ID = '2092647926593953792';

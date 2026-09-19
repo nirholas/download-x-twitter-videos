@@ -13,8 +13,8 @@
  * @author nichxbt
  */
 
-import { assertMediaUrl, downloadFilename, VideoExtractionError } from '../../../src/video/edgeExtractor.js';
-import { corsHeaders, jsonResponse, preflightResponse } from '../../../src/video/edgeHttp.js';
+import { assertMediaUrl, downloadFilename, VideoExtractionError } from '../../../src/edgeExtractor.js';
+import { corsHeaders, jsonResponse, preflightResponse } from '../../../src/edgeHttp.js';
 
 const UPSTREAM_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36',

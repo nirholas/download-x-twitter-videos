@@ -12,8 +12,8 @@
  * @author nichxbt
  */
 
-import { extractTweetVideo, parseTweetUrl, VideoExtractionError } from '../../../src/video/edgeExtractor.js';
-import { corsHeaders, jsonResponse, preflightResponse } from '../../../src/video/edgeHttp.js';
+import { extractTweetVideo, parseTweetUrl, VideoExtractionError } from '../../../src/edgeExtractor.js';
+import { corsHeaders, jsonResponse, preflightResponse } from '../../../src/edgeHttp.js';
 
 /** Successful extractions are reusable for an hour, keyed by tweet ID. */
 const CACHE_TTL_SECONDS = 3600;
