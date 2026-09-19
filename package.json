@@ -1,5 +1,5 @@
 {
-  "name": "xactions-video",
+  "name": "download-x-twitter-videos",
   "version": "1.0.0",
   "description": "Free X/Twitter video downloader that runs entirely at the edge on Cloudflare Pages. Powers https://xactions.app/video.",
   "type": "module",
