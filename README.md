@@ -71,3 +71,7 @@ CORS allows `https://xactions.app` and `https://www.xactions.app` (see `src/edge
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE). Not affiliated with X Corp.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=nirholas/download-x-twitter-videos&type=Date)](https://www.star-history.com/#nirholas/download-x-twitter-videos&Date)
