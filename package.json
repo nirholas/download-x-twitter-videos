@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "vitest": "^4.1.0",
-    "wrangler": "^4.40.0"
+    "wrangler": "^4.149.0"
   },
   "engines": {
     "node": ">=20"
