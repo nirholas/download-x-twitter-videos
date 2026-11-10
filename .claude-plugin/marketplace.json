@@ -1,0 +1,22 @@
+{
+  "name": "download-x-twitter-videos",
+  "owner": {
+    "name": "nirholas"
+  },
+  "description": "Extract every MP4 quality of a public X/Twitter post video through the xactions.app API.",
+  "plugins": [
+    {
+      "name": "x-video-downloader",
+      "source": "./plugins/x-video-downloader",
+      "description": "Extract every MP4 quality of a public X/Twitter post video through the xactions.app API.",
+      "category": "productivity",
+      "tags": [
+        "twitter",
+        "x",
+        "video",
+        "downloader",
+        "mp4"
+      ]
+    }
+  ]
+}

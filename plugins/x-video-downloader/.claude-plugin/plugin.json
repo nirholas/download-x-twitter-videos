@@ -1,0 +1,18 @@
+{
+  "name": "x-video-downloader",
+  "version": "1.0.0",
+  "description": "Extract every MP4 quality of a public X/Twitter post video through the xactions.app API.",
+  "author": {
+    "name": "nirholas"
+  },
+  "repository": "https://github.com/nirholas/download-x-twitter-videos",
+  "homepage": "https://xactions.app/video",
+  "license": "Apache-2.0",
+  "keywords": [
+    "twitter",
+    "x",
+    "video",
+    "downloader",
+    "mp4"
+  ]
+}
